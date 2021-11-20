@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Literata|Open+Sans+Condensed:300|Fira+Sans|PT+Sans+Narrow&display=swap');
+body{
+    background: white;
+    height: 9000px!important;
+}
+#tabs li{
+    color:black!important;
+    background: linear-gradient(to top, gray,black)!important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+#tabs li.on { 
+    background: gray!important;
+    color: #fff; 
+    height: 60px; 
+    width: 100%; 
+    color: white; 
+    font-size: 25px;
+}
+#tabs{
+    position: relative;
+    display: table;
+    width: 100%; 
+    height: 60px;
+    margin: 0;
+}
+#tabs li{
+    display: table-cell; position: relative;
+}
+.wrapper{
+    box-shadow: 0 0 13px 10px #F3F3F3;
+}
+nav{
+    background:url('https://cdn.igromania.ru/mnt/news/7/6/8/d/f/e/86169/detail/1672b7a58307e1e2_1920xH.jpg') no-repeat!important;
+    background-size: cover!important;
+    width:100%!important;
+    height:100px;
+    box-shadow: inset 0px 0px 10px 5px black!important; 
+    height: 750px;
+}
+.img{
+    margin-top: -20px;
+}
+.brand-logo{
+    color: white!important;
+    font-family: 'Literata', serif!important;
+}
+.hf{
+    color:white!important;
+    font-weight: 600;
+    font-family: 'Literata', serif!important;
+}
+h3{
+    font-family: 'Literata', serif!important;
+    text-align:center;
+}
+h4{
+    font-family: 'Literata', serif!important;
+    text-align:center;
+    font-size: 50px!important;
+}
+h2{
+    font-family: 'Literata', serif!important;
+    text-align:center;
+    font-size: 50px!important;
+}
+.body{
+    background-image: url('515_United wallpaper 5 hero.png'), linear-gradient(to right,black, grey);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: 8px solid black;
+    border-image: linear-gradient(to right,#836323 0,#c3a568 51%,#836323 100%);
+    border-image-slice: 1;
+    background-size: cover;
+    width: 100%!important; 
+    height: 570px;
+    object-fit: cover;
+    border-bottom: 8px solid black;
+    border-image: linear-gradient(to right,#836323 0,#c3a568 51%,#836323 100%);
+    border-image-slice: 1; 
+}
+.text-block-2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:#87816d;
+}
+.img_carousel{
+    height:630px;
+    object-fit: cover;
+    width:100%!important; 
+}
+.carousel .carousel-slider{
+    background: linear-gradient(to right,#836323 0,#c3a568 51%,#836323 100%);
+    
+}
+.tabs{
+    background: black;
+    box-shadow: 0 30 10px 10px rgba(0,0,0,0.5);
+}
